@@ -1,0 +1,82 @@
+.topicos {
+    background: var(--azul-degrade);
+    font-family: 'Poppins';
+    color: var(--branco);
+    text-align: center;
+}
+.topicos__titulo {
+    font-weight: 300;
+    color: var(--branco);
+    padding: 2em;
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos__item{
+    margin: 2em 0.5em;
+}
+.topicos__botoes{
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--amarelo);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contatos {
+    font-family: 'Poppins';
+    padding: 1.5em 1em;
+    background-color: var(--branco);
+}
+
+.contatos__titulo {
+    color: #002F52;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+.contatos__texto {
+    color: #002F52;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.contatos__placeholder {
+    border: 1px solid;
+    border-color: #002F52;
+    border-radius: 24px;
+    width: 90%;
+    padding: 1em;
+
+}
+
+.contatos__placeholder::placeholder {
+    background-image: url("../img/email.svg");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #002F52;
+}
+
+.linha {
+    margin: 0;
+    margin-top: 2em;
+}
+
+
+.footer__titulo{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.5em 1.5em 2em 1.5em;
+    color: black;
+    background-color: var(--branco);
+}
